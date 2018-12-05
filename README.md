@@ -28,4 +28,4 @@ If you want to run it permanently, copy the systemd service to it's proper locat
 
 ## Text-To-Speech
 - [texttomp3.online](https://www.texttomp3.online/)
-- More coming soon....
+- [IBM Watson](https://text-to-speech-demo.ng.bluemix.net/)
