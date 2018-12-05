@@ -1,5 +1,9 @@
 from playsound import playsound
 
+def say_shutdown():
+    playsound("speech/shutting_down.mp3")
+    
+
 def say_temp(temp):
     say = round(temp, 0)
     if temp > 45:

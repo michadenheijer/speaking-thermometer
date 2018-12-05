@@ -3,8 +3,8 @@ Description=Thermometer
 After=network.target
 
 [Service]
-Type=simple
-User=pi
+Type=idle
+User=root
 WorkingDirectory=/home/pi/thermometer
 ExecStart=/usr/bin/python /home/pi/thermometer/button.py
 
