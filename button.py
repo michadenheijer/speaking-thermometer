@@ -6,7 +6,8 @@ import time
 def key_press(key):
     if "a down" in str(key):
         say_shutdown()
-        #os.system("sudo shutdown now")
+        time.sleep(5)
+        os.system("sudo shutdown now")
     else:
         say_temp(24)
 
