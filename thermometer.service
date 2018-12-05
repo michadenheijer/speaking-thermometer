@@ -1,0 +1,12 @@
+[Unit]
+Description=Thermometer
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/thermometer
+ExecStart=/usr/bin/python /home/pi/thermometer/button.py
+
+[Install]
+WantedBy=multi-user.target
