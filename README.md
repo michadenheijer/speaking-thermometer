@@ -5,11 +5,12 @@ A thermometer that tells you the temperature. It waits for a keyboard press and 
 Coming soon....
 
 ## Wiring
-![speaking-thermometer-wireing](https://files.michadenheijer.com/speaking-thermometer.png)
+<img src="https://files.michadenheijer.com/speaking-thermometer.png" width="250">
 
 ## Dependencies
 - [keybord](https://pypi.org/project/keyboard/)
 - [playsound](https://pypi.org/project/playsound/)
+- [Adafruit MCP3008](https://github.com/adafruit/Adafruit_Python_MCP3008)
 
 ## How to install
 Firstly, download all the files you need.
