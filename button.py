@@ -1,4 +1,5 @@
 from speaking import say_temp, say_shutdown
+from temperature import get_temp
 import os
 import keyboard
 import time
@@ -9,7 +10,7 @@ def key_press(key):
         time.sleep(5)
         os.system("sudo shutdown now")
     else:
-        say_temp(24)
+        say_temp(get_temp())
 
 keyboard.on_press(key_press)
 
