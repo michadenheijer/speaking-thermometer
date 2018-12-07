@@ -4,8 +4,8 @@ A thermometer that tells you the temperature. It waits for a keyboard press and 
 ## Images
 Coming soon....
 
-## Wires and stuff...
-Coming soon....
+## Wiring
+![speaking-thermometer-wireing](https://files.michadenheijer.com/speaking-thermometer.png)
 
 ## Dependencies
 - [keybord](https://pypi.org/project/keyboard/)
