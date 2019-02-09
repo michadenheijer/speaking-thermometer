@@ -1,9 +1,6 @@
 # speaking-thermometer
 A thermometer that tells you the temperature. It waits for a keyboard press and then calculates the temperature from a NTC Thermistor. Then it tells it to you.
 
-## Images
-Coming soon....
-
 ## Wiring
 <img src="https://files.michadenheijer.com/speaking-thermometer.png" width="250">
 
